@@ -48,7 +48,7 @@ ifneq (,$(filter n7100,$(TARGET_DEVICE)))
 endif
 
 ifneq (,$(filter i9500,$(TARGET_DEVICE)))
-	ipc_device_name := n7100
+	ipc_device_name := i9500
 endif
 
 LOCAL_SRC_FILES := \
