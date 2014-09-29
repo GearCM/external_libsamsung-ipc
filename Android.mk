@@ -47,6 +47,10 @@ ifneq (,$(filter n7100,$(TARGET_DEVICE)))
 	ipc_device_name := n7100
 endif
 
+ifneq (,$(filter i9500,$(TARGET_DEVICE)))
+	ipc_device_name := n7100
+endif
+
 LOCAL_SRC_FILES := \
 	samsung-ipc/ipc.c \
 	samsung-ipc/ipc_devices.c \
