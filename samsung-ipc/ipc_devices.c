@@ -133,6 +133,16 @@ struct ipc_device_desc ipc_devices[] = {
         .gprs_specs = &n7100_gprs_specs,
         .nv_data_specs = &n7100_nv_data_specs,
     },
+    {
+        .name = "i9500",
+        .board_name = "exynos5",
+        .kernel_version = NULL,
+        .fmt_ops = &n7100_fmt_ops,
+        .rfs_ops = &n7100_rfs_ops,
+        .handlers = &n7100_handlers,
+        .gprs_specs = &n7100_gprs_specs,
+        .nv_data_specs = &n7100_nv_data_specs,
+    },
 };
 
 unsigned int ipc_devices_count = sizeof(ipc_devices) /
